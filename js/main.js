@@ -2,18 +2,23 @@ require([], function (){
 
     var isMobileInit = false;
     var loadMobile = function(){
-        require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
+        //mobile.js
+        // require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
+        //更新mobile.js
+        require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.3/js/mobile.js'], function(mobile){
             mobile.init();
             isMobileInit = true;
         })
-    }
+    };
     var isPCInit = false;
     var loadPC = function(){
-        require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
+        //更新pc.js
+        // require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
+        require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.3/js/pc.js'], function(pc){
             pc.init();
             isPCInit = true;
         })
-    }
+    };
 
     var browser = {
         versions: function() {
