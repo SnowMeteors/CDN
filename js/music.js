@@ -4,24 +4,19 @@ const ap = new APlayer({
 	order: 'random',
 	autoplay: false,
 	fixed: true,
-	preload: 'auto',
-	// width: '500',
-	// listMaxHeight: 90,
-	
-	//loop: '',
-	//listMaxHeight: 125,
+	preload: 'none',
     audio: [
       {
         name: "風の詩",
         artist: '押尾光太郎',
         url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_28538579&response=res&type=convert_url&',
-        cover: 'https://s3.ax1x.com/2020/12/27/r5LQmT.jpg',
+        cover: 'http://p2.music.126.net/w4mS_DbgBlJLzzkiuQcIBA==/109951163405911243.jpg?param=130y130',
       },
 	  {
 		name: "流行的云",
 		artist: '岸部真明',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_322731&response=res&type=convert_url&',
-		cover: 'https://s3.ax1x.com/2020/12/27/r5LU6x.jpg',
+		cover: 'http://p2.music.126.net/fCM0L-lNcdrxwLsyFCSKKA==/109951165068929792.jpg?param=130y130',
 	  },
 	  {
 		name: "桜花抄",
@@ -81,19 +76,19 @@ const ap = new APlayer({
 		name: "雪之梦",
 		artist: 'Bandari',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_332018&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/18/JmF7jO.jpg',
+		cover: 'https://img2.kuwo.cn/star/albumcover/500/85/51/738873143.jpg',
 	  },
 	  {
 		name: "River Flows in You",
 		artist: 'Yiruma',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_26038728&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/18/JmFr90.jpg',
+		cover: 'https://img2.kuwo.cn/star/albumcover/500/74/1/3780438763.jpg',
 	  },
 	  {
 		name: "Kiss The Rain",
 		artist: 'Yiruma',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_38887115&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/18/JmFr90.jpg',
+		cover: 'https://img2.kuwo.cn/star/albumcover/500/74/1/3780438763.jpg',
 	  },
 	  {
 		 name: "战争之后",
@@ -118,7 +113,7 @@ const ap = new APlayer({
 		name: "The Rain",
 		artist: '久石让',
 		url: 'https://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_1109443&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/18/JmFQAA.jpg',
+		cover: 'http://p1.music.126.net/w0X3JcUjELmDWYjPZL0YSg==/109951164728423040.jpg?param=130y130',
 	  },
 	  {
 		name: "lit(var)",
@@ -136,31 +131,31 @@ const ap = new APlayer({
 		name: "健二",
 		artist: '松本晃彦',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_4947723&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/18/JmAuFA.jpg',
+		cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000001KV63B40amxl_1.jpg?max_age=2592000',
 	  },
 	 {
 		name: "时代を超える想い",
 		artist: '和田薫',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_6533431&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/20/J1h1vn.jpg',
+		cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000002pXc9C18xe3X_1.jpg?max_age=2592000',
 	 },
 	{
 		name: "Cornfield Chase",
 		artist: 'Hans Zimmer',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_28412452&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/21/J8kouj.jpg',
+		cover: 'http://p2.music.126.net/Mulz9DNOFEcU6A9lrITGsg==/109951163936014077.jpg?param=130y130',
 	},
 	{
 		name: "沉醉于风中",
 		artist: 'S.E.N.S.',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_20530038&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/22/JY7dXT.jpg',
+		cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000004YkkJ90vvnjx_1.jpg?max_age=2592000',
 	},
 	{
 		name: "神之将至",
 		artist: '王朝',
 		url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_6572570&response=res&type=convert_url&',
-		cover: 'https://s1.ax1x.com/2020/04/22/JUEEpn.jpg',
+		cover: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003YeCrE2l9Rm3_1.jpg?max_age=2592000',
 	},
     ]
 });
