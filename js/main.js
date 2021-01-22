@@ -2,14 +2,20 @@ require([], function (){
 
     var isMobileInit = false;
     var loadMobile = function(){
-        require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
+        // 修改前mobile.js
+        // require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
+        // 修改后mobile.js
+        require(['mobile.js'], function(mobile){
             mobile.init();
             isMobileInit = true;
         })
     }
     var isPCInit = false;
     var loadPC = function(){
-        require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
+        //修改前pc.js
+        // require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
+        //修改后pc.js
+        require(['pc.js'], function(pc){
             pc.init();
             isPCInit = true;
         })
@@ -150,7 +156,10 @@ require([], function (){
 
     // TOC
     if (yiliaConfig.toc) {
-        require(['toc'], function(){ })
+        // 修改前toc.js
+        // require(['toc'], function(){ })
+        // 修改后toc.js
+        require(['toc.js'], function(){ })
     }
 
     // Random Color 边栏顶部随机颜色
