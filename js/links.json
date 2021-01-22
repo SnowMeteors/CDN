@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "name": "小琲的天尘翼",
     "site": "https://www.tianchenyi.com/",
@@ -9,12 +9,18 @@
     "name": "Adehrt",
     "site": "http://47.112.191.114/",
     "info": "种下一棵树，最好的时间是十年前，其次是现在",
-    "avatar": "https://s1.ax1x.com/2020/08/16/dV50sJ.jpg"
+    "avatar": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources/img/friends/20210120195131.jpg"
   },
   {
     "name": "PluShine",
     "site": "https://plushine.cn/",
     "info": "XJHui's Blog",
     "avatar": "https://cdn.jsdelivr.net/gh/xingjiahui/CDN@latest/touxiang.jpg"
+  },
+  {
+    "name": "EthanLoo",
+    "site": "https://blog.ethanloo.top",
+    "info": "好好学习，好好吃饭，好好睡觉",
+    "avatar": "https://cdn.ethanloo.top/img/avatar.png"
   }
 ]
