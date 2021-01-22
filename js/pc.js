@@ -166,7 +166,7 @@ define([], function(){
             //修改前search.js
             // require([yiliaConfig.rootUrl + 'js/search.js'], function(){
             //修改后search.js
-            require(['search.js'], function(){
+            require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.1.5/js/search.js'], function(){
                 var inputArea = document.querySelector("#local-search-input");
                 var $HideWhenSearch = $("#toc, #tocButton, .post-list, #post-nav-button a:nth-child(2)");
                 var $resetButton = $("#search-form .fa-times");
