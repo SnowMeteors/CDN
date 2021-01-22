@@ -1247,7 +1247,7 @@ color
   color: #c8c8c8;
 }
 .aplayer-list {
-  background-image: url("/img/aplayerBg.png");
+  background-image: url("https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.1.5/img/aplayerBg.png");
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
