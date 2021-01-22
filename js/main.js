@@ -2,23 +2,18 @@ require([], function (){
 
     var isMobileInit = false;
     var loadMobile = function(){
-        //mobile.js
-        // require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
-        //更新mobile.js
-        require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.3/js/mobile.js'], function(mobile){
+        require([yiliaConfig.rootUrl + 'js/mobile.js'], function(mobile){
             mobile.init();
             isMobileInit = true;
         })
-    };
+    }
     var isPCInit = false;
     var loadPC = function(){
-        //更新pc.js
-        // require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
-        require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.3/js/pc.js'], function(pc){
+        require([yiliaConfig.rootUrl + 'js/pc.js'], function(pc){
             pc.init();
             isPCInit = true;
         })
-    };
+    }
 
     var browser = {
         versions: function() {
@@ -81,10 +76,8 @@ require([], function (){
                     }
                     var width = imgArr.eq(i).attr("width");
                     var height = imgArr.eq(i).attr("height");
-                    // imgArr.eq(i).replaceWith("<a href='"+src+"' title='"+title+"' rel='fancy-group' class='fancy-ctn fancybox'><img src='"+src+"' width="+width+" height="+height+" title='"+title+"' alt='"+title+"'></a>");
+                    imgArr.eq(i).replaceWith("<a href='"+src+"' title='"+title+"' rel='fancy-group' class='fancy-ctn fancybox'><img src='"+src+"' width="+width+" height="+height+" title='"+title+"' alt='"+title+"'></a>");
                     // imgArr.eq(i).replaceWith("<a class='fancy-ctn' href='"+src+"' title='"+title+"' data-fancybox='images' data-caption='"+src.substring(src.lastIndexOf("/")+1)+"'><img src='"+src+"' width="+width+" height="+height+" title='"+title+"' alt='"+title+"'></a>");
-                    imgArr.eq(i).replaceWith("<a class='fancy-ctn' href='"+src+"' title='"+title+"' data-fancybox='images' data-caption='"+src.substring(src.lastIndexOf("/")+1)+"'><img  src='"+src+"' width="+width+" height="+height+" title='"+title+"' alt='"+title+"'></a>");
-
 
                 }
                 // $(".article-inner .fancy-ctn").fancybox({ type: "image" });
@@ -164,9 +157,12 @@ require([], function (){
     var colorList = ["#6da336", "#ff945c", "#66CC66", "#99CC99", "#CC6666", "#76becc", "#c99979", "#918597", "#4d4d4d"];
     var id = Math.ceil(Math.random()*(colorList.length-1));
     // PC
-    //$("#container .left-col .overlay").css({"background-color": colorList[id],"opacity": .3});
+    // $("#container .left-col .overlay").css({"background-color": colorList[id],"opacity": .3});
     // Mobile
-    $("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": .7});
+    //原样式
+    // $("#container #mobile-nav .overlay").css({"background-color": colorList[id],"opacity": .7});
+    //修改后
+    $("#container #mobile-nav .overlay").css({"background-color": "#d7ddcb"});
 
     // Table
     $("table").wrap("<div class='table-area'></div>");
@@ -181,7 +177,7 @@ require([], function (){
     // Hide Labels
     if(yiliaConfig.isArchive || yiliaConfig.isTag || yiliaConfig.isCategory) {
         $(document).ready(function() {
-            $("#footer").after("<button class='hide-labels'>TAGS</button>");
+            $("#footer").after("<button class='hide-labels'>标签</button>");
             $(".hide-labels").click(function() {
                 $(".article-info").toggle(200);
             })

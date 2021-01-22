@@ -99,7 +99,7 @@ define([], function(){
         var $right = document.getElementsByClassName("viewer-box-r")[0];
         var touchStartTime;
         var touchEndTime;
-        $right.addEventListener("touchstart", function(){
+        $right.addEventListener("touchstart",function(){
             touchStartTime = + new Date();
         }, false);
         $right.addEventListener("touchend", function(){

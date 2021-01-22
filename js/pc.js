@@ -163,9 +163,7 @@ define([], function(){
 
     if (yiliaConfig.search) {
         var search = function(){
-            //更新search.js
-            // require([yiliaConfig.rootUrl + 'js/search.js'], function(){
-            require(['https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@1.3/js/search.js'], function(){
+            require([yiliaConfig.rootUrl + 'js/search.js'], function(){
                 var inputArea = document.querySelector("#local-search-input");
                 var $HideWhenSearch = $("#toc, #tocButton, .post-list, #post-nav-button a:nth-child(2)");
                 var $resetButton = $("#search-form .fa-times");
