@@ -1,7 +1,7 @@
 link = {
     init:function() {
         const that=this;
-        $.getJSON("https://cdn.jsdelivr.net/gh/SnowMeteors/CDN/js/links.json",
+        $.getJSON("https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@master/js/links.json",
             function(data){
                 that.render(data);
             });

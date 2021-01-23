@@ -477,9 +477,9 @@ a {
     margin-top: 1em;
   }
   #container #tocButton {
-    z-index: 100;
+    z-index: 88;
     position: fixed;
-    left: 0.5em;
+    left: 1.6em;
     top: auto; /*In order to cover style in article.styl*/
     bottom: 10px;
     padding: 0.2em 0.4em;
@@ -492,13 +492,12 @@ a {
   }
   #container .toc-article {
     display: none;
-    z-index: 99;
+    z-index: 77;
     left: 0;
-    top: 38%;
+    top: 34%;
     bottom: 1em;
     height: auto;
     max-height: 58%;
-    width: none;
     width: auto;
     min-width: 7em;
     max-width: 61.8%;
@@ -517,6 +516,8 @@ a {
     color: #fff;
     background: #d3d3d3;
     border-radius: 3px;
+    position: fixed;
+    top: 32.1%;
   }
   #container .toc-article .toc {
     padding: 0.5em;
@@ -883,7 +884,7 @@ a {
   right: 0;
 }
 .scroll {
-  z-index: 999;
+  z-index: 77;
   position: fixed;
   top: 61.8%;
   text-align: center;
