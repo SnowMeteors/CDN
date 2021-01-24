@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "name": "小琲的天尘翼",
     "site": "https://www.tianchenyi.com/",
@@ -26,7 +26,37 @@
   {
     "name": "Heo",
     "site": "https://blog.zhheo.com/",
-    "info": "爱折腾的设计师 ",
+    "info": "爱折腾的设计师",
     "avatar": "https://blog.zhheo.com/img/avatar.png"
+  },
+  {
+	"name": "小冰博客",
+	"site": "https://zfe.one",
+	"info": "做个有梦想的人!",
+	"avatar": "https://zfe.space/images/headimage.png"
+  },
+  {
+	"name": "Lete乐特",
+	"site": "https://www.lete114.top/",
+	"info": "人生只有一次，大胆的生活！！",
+	"avatar": "https://cdn.lete114.top/img/avatar.png"
+  },
+  {
+  	  "name": "小嘉的部落格",
+  	  "site": "//blog.imzjw.cn",
+  	  "info": "好记性不如烂笔头",
+  	  "avatar": "//cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg"
+  },
+  {
+  	  "name": "二兔",
+  	  "site": "https://blog.juanertu.com",
+  	  "info": "能与你一起成长，我荣幸之至。",
+  	  "avatar": "https://blog.juanertu.com/images/avatar.png"
   }
+  // {
+  // 	  "name": "",
+  // 	  "site": "",
+  // 	  "info": "",
+  // 	  "avatar": ""
+  // }
 ]
