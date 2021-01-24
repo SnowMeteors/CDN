@@ -42,21 +42,15 @@
 	"avatar": "https://cdn.lete114.top/img/avatar.png"
   },
   {
-  	  "name": "小嘉的部落格",
-  	  "site": "//blog.imzjw.cn",
-  	  "info": "好记性不如烂笔头",
-  	  "avatar": "//cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg"
+	"name": "小嘉的部落格",
+	"site": "//blog.imzjw.cn",
+	"info": "好记性不如烂笔头",
+	"avatar": "//cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg"
   },
   {
-  	  "name": "二兔",
-  	  "site": "https://blog.juanertu.com",
-  	  "info": "能与你一起成长，我荣幸之至。",
-  	  "avatar": "https://blog.juanertu.com/images/avatar.png"
+	"name": "二兔",
+	"site": "https://blog.juanertu.com",
+	"info": "能与你一起成长，我荣幸之至。",
+	"avatar": "https://blog.juanertu.com/images/avatar.png"
   }
-  // {
-  // 	  "name": "",
-  // 	  "site": "",
-  // 	  "info": "",
-  // 	  "avatar": ""
-  // }
 ]
