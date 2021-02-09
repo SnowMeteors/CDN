@@ -1,5 +1,5 @@
 window.lazySizesConfig = window.lazySizesConfig || {};
-lazySizesConfig.expand = 10;
+lazySizesConfig.expand = 190;
 album = {
     init: function () {
         const that = this;
