@@ -41,7 +41,7 @@ album = {
 photo = {
     init: function (lazyload) {
         const that = this;
-        $.getJSON("album.json",
+        $.getJSON("https://cdn.jsdelivr.net/gh/SnowMeteors/CDN@master/js/album.json",
             function (data) {
                 that.render(data,lazyload);
             });
