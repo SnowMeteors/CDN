@@ -122,7 +122,6 @@ photo = {
                         img += '<div class="caption">' + des + '</div>'
                     }
                     img += '</a>';
-
                 }else{img += '<img id="NoRepeat" alt="' + des + '" src="' + url + '">' + '</a>';}
             }
             $(".content-img").eq(i).append(img);
@@ -135,6 +134,8 @@ photo = {
                 lastRow: 'hide',
                 randomize: true
             });
+        }else{
+            $("#photo a.photo").css("position","relative");
         }
     }
 };
