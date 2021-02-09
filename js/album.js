@@ -27,10 +27,10 @@ album = {
 
             div +=
                 '<div class="gallery-group">' +
-                    '<a href="' + link + '">' + '</a>' +
-                    '<img alt="loading" id="NoRepeat"  src="' + cover + '" />' +
-                    '<span class="group-name">' + name + '</span>' +
-                    '<span class="photoCnt">' + photoCnt + '</span>' +
+                '<a href="' + link + '">' + '</a>' +
+                '<img alt="loading" id="NoRepeat"  src="' + cover + '" />' +
+                '<span class="group-name">' + name + '</span>' +
+                '<span class="photoCnt">' + photoCnt + '</span>' +
                 '</div>'
             ;
         }
@@ -116,7 +116,13 @@ photo = {
                 if(info[j].hasOwnProperty("thumb")){url = info[j].thumb;}
                 img += '<a data-fancybox="gallery" data-caption="' + des + '" href="' + info[j].url + '" class="photo">';
                 if(lazyload === true){
-                    img += '<img lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">' + '</a>';
+
+                    img += '<img lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">';
+                    if(des !== ""){
+                        img += '<div class="caption">' + des + '</div>'
+                    }
+                    img += '</a>';
+
                 }else{img += '<img id="NoRepeat" alt="' + des + '" src="' + url + '">' + '</a>';}
             }
             $(".content-img").eq(i).append(img);
