@@ -131,7 +131,7 @@ photo = {
             $(".content-img").justifiedGallery({
                 rowHeight: 250,
                 margins: 4,
-                lastRow: 'hide',
+                //lastRow: 'hide',
                 randomize: true
             });
         }else{
