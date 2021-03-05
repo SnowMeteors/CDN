@@ -526,6 +526,20 @@
               "des": "乌龟蛋，里面有个千年乌龟，可惜拍下来的时候，照片损坏了"
             }
           ]
+        },
+        {
+          "date": "小学(时间不详)",
+          "info":
+          [
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210305152333.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210305152150.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210305152351.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210305152208.jpg"
+            }
+          ]
         }
       ]
     }
