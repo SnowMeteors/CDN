@@ -449,6 +449,24 @@
       "photo":
       [
         {
+          "date": "2021-4-16",
+          "info":
+          [
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154151.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154123.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154202.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154133.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154212.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210426154138.jpg"
+            }
+          ]
+        },
+        {
           "date": "2021-3-14",
           "info":
           [
