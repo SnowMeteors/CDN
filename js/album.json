@@ -449,6 +449,54 @@
       "photo":
       [
         {
+          "date": "2021-5-1",
+          "info":
+          [
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190258.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190242.jpg",
+              "des": "某多刺蚁公主"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190359.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190338.jpg",
+              "des": "卡姿兰大眼睛"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190617.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190603.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190643.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190654.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190821.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190812.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190841.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190832.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190941.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190934.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501191011.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190953.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501191018.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501190958.jpg"
+            },
+            {
+              "url": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501191024.jpg",
+              "thumb": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources@master/img/LifeIsStrange/20210501191004.jpg"
+            }
+          ]
+        },
+        {
           "date": "2021-4-16",
           "info":
           [
