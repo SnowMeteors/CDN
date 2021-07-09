@@ -94,6 +94,7 @@ photo = {
         //添加基本框架
         for (let i = 0; i < timelineCnt; i++) {
             let date = data.album[index].photo[i].date;
+            if (date == null) date = "";
             li +=
                 '<li>' +
                 '<span>' + date + '</span>' +
@@ -116,8 +117,12 @@ photo = {
                 if(info[j].hasOwnProperty("thumb")){url = info[j].thumb;}
                 img += '<a data-fancybox="gallery" data-caption="' + des + '" href="' + info[j].url + '" class="photo">';
                 if(lazyload === true){
-
-                    img += '<img lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">';
+                    img += '<img ';
+                    if (link === "BDMenu")
+                    {
+                        img += 'bdinfo ';
+                    }
+                    img += 'lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">';
                     if(des !== ""){
                         img += '<div class="caption">' + des + '</div>'
                     }
@@ -126,6 +131,7 @@ photo = {
             }
             $(".content-img").eq(i).append(img);
         }
+
         //初始化画廊
         if(lazyload === false){
             $(".content-img").justifiedGallery({
@@ -139,4 +145,5 @@ photo = {
         }
     }
 };
+
 
