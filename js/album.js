@@ -117,12 +117,7 @@ photo = {
                 if(info[j].hasOwnProperty("thumb")){url = info[j].thumb;}
                 img += '<a data-fancybox="gallery" data-caption="' + des + '" href="' + info[j].url + '" class="photo">';
                 if(lazyload === true){
-                    img += '<img ';
-                    if (link === "BDMenu")
-                    {
-                        img += 'bdinfo ';
-                    }
-                    img += 'lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">';
+                    img += '<img lazy="loading" class="lazyload" id="NoRepeat" alt="' + des + '" data-src="' + url + '">';
                     if(des !== ""){
                         img += '<div class="caption">' + des + '</div>'
                     }

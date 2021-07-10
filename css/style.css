@@ -349,12 +349,12 @@ ul#photo {
   width: unset !important;
 }
 #photo img[lazy="loading"] {
-  width: 250px;
-  height: 206px;
+  width: 348px;
+  height: 260px;
 }
 #photo img[src] {
-  width: calc(100% / 5 - 10px);
-  height: 254px;
+  width: calc(100% / 4 - 6px);
+  height: unset;
   object-fit: cover;
 }
 @media screen and (max-width: 1500px) {
@@ -850,7 +850,6 @@ ul#photo {
   font-weight: 550;
   line-height: 1.75rem;
   font-family: inherit;
-  cursor: pointer;
   text-transform: uppercase;
   float: none;
   overflow: visible;
@@ -1136,7 +1135,7 @@ ul#photo {
 }
 .article-entry #notFound {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   -moz-transform: translateY(-50%) translateX(-50%);
@@ -1524,14 +1523,48 @@ color
 .actions {
   height: 50px;
 }
+@media screen and (max-width: 1020px) {
+  .el-textarea__inner {
+    -webkit-background-size: 112px !important;
+    -moz-background-size: 112px !important;
+    background-size: 112px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .el-textarea__inner {
+    -webkit-background-size: contain !important;
+    -moz-background-size: contain !important;
+    background-size: contain !important;
+  }
+}
+@media screen and (max-width: 650px) {
+  .el-textarea__inner {
+    -webkit-background-size: 112px !important;
+    -moz-background-size: 112px !important;
+    background-size: 112px !important;
+  }
+}
+.el-textarea__inner:focus {
+  background-position-y: 200px !important;
+}
+.OwO .OwO-body .OwO-bar {
+  margin-top: -10px;
+}
 .el-textarea__inner {
+  -moz-transition: all 1s !important;
+  -webkit-transition: all 1s !important;
+  -o-transition: all 1s !important;
+  -webkit-transition: all 1s !important;
+  -moz-transition: all 1s !important;
+  -ms-transition: all 1s !important;
+  transition: all 1s !important;
   background-image: url("https://cdn.jsdelivr.net/gh/SnowMeteors/CDN/img/commitBg.png") !important;
   background-repeat: no-repeat;
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;
   height: 200px !important;
-  background-position: right 15px center !important;
+  background-position: right 15px bottom !important;
 }
 #code {
   position: relative;
@@ -1947,6 +1980,9 @@ pre:before {
   border: none;
   outline: none;
   -webkit-appearance: none;
+}
+#js-aboutme {
+  text-align: center;
 }
 .toc-article {
   position: fixed;
@@ -3257,11 +3293,13 @@ pre .javascript .function {
   border-bottom: 2px solid #d3d3d3;
   background: none;
   border-radius: 2px;
-  margin-left: 50px;
 }
 .search:hover {
   -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#search-form {
+  text-align: center;
 }
 #search-form .fa-times {
   display: none;
