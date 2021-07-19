@@ -175,6 +175,12 @@ const ap = new APlayer({
 			url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_146601752&response=res&type=convert_url&',
 			cover: 'https://img3.kuwo.cn/star/albumcover/500/93/54/2300477504.jpg',
 		},
+		{
+			name: "Night Crusing",
+			artist: '牛尾宪辅',
+			url: 'http://antiserver.kuwo.cn/anti.s?useless=/resource/&format=mp3&rid=MUSIC_143378666&response=res&type=convert_url&',
+			cover: 'https://y.qq.com/music/photo_new/T002R300x300M000002Gmzga45vqPq_1.jpg?max_age=2592000',
+		}
 	]
 });
 // dplayer

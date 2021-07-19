@@ -51,7 +51,7 @@
 	"name": "小嘉的部落格",
 	"site": "//blog.imzjw.cn",
 	"info": "好记性不如烂笔头",
-	"avatar": "//cdn.jsdelivr.net/gh/zjwo/CDN/img/blog/avatar.jpg"
+	"avatar": "https://cdn.jsdelivr.net/npm/nanshen/avatar.jpg"
   },
   {
 	"name": "二兔",
