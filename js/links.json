@@ -12,12 +12,6 @@
     "avatar": "https://www.tianchenyi.com/picture/favicon.ico"
   },
   {
-    "name": "Adehrt",
-    "site": "http://47.112.191.114/",
-    "info": "种下一棵树，最好的时间是十年前，其次是现在",
-    "avatar": "https://cdn.jsdelivr.net/gh/SnowMeteors/Resources/img/friends/20210120195131.jpg"
-  },
-  {
     "name": "PluShine",
     "site": "https://plushine.cn/",
     "info": "XJHui's Blog",
@@ -27,7 +21,7 @@
     "name": "EthanLoo",
     "site": "https://blog.ethanloo.top",
     "info": "好好学习，好好吃饭，好好睡觉",
-    "avatar": "https://cdn.ethanloo.top/img/avatar.png"
+    "avatar": "https://cdn.ethanloo.cn/img/avatar.png"
   },
   {
     "name": "Heo",
@@ -64,5 +58,11 @@
     "site": "http://www.xincc.top/",
     "info": "就爱捣鼓",
     "avatar": "https://cdn.jsdelivr.net/gh/Padavan2019/blog@1.0/blogimg/20210423104755.png"
+  },
+  {
+    "name": "4ra1n",
+    "site": "https://4ra1n.love/",
+    "info": "华电许少",
+    "avatar": "https://4ra1n.love/images/avatar.png"
   }
 ]
